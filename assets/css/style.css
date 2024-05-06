@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(97, 126, 165);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    border-radius: 20px;
+}

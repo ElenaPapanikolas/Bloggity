@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/form.css">
+    <title>Bloggity</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Bloggity</h1>
+    </header>
+
+    <main>
+        <figure>
+                <img src="./assets/images/droplets.jpg" alt="Water droplets on blue/purple background.">
+        </figure>
+        <form>
+            <h2>Get your blog on</h2>
+            <ul>
+                <li>
+                    <label for="Username">Username</label>
+                    <input type="text" id="username" name="username">
+                </li>
+                <li>
+                    <label for="Title">Title</label>
+                    <input type="text" id="title" name="title">
+                </li>
+                <li>
+                    <label for="Content">Content</label>
+                    <textarea type="text" id="content" name="content"></textarea>
+                </li>
+            </ul>
+            <button type="submit">Submit</button>
+            <p id="display message"></p> <!-- empty p tag for error display message, when something isn't entered-->
+        </form>
+    </main>
+
+
+    <footer>
+        <h3>Thanks for being here &hearts;</h3>
+    </footer>
+
+</body>
+</html>

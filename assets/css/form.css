@@ -1,0 +1,40 @@
+form {
+    width: 50%; /* makes form take up 50% of the page/main */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form li {
+    padding: 5px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+ul {
+    list-style-type: none; /* gets rid of bullet points, Possibly add margin/padding later?*/
+    margin-left: -50px;
+  }
+
+  input {
+    width: 100%;
+    background-color: lightgrey;
+  }
+
+  button {
+    padding: 5px;
+    width: 95%;
+    background-color: darkgrey;
+  }
+
+  textarea {
+    min-height: 100px;
+    background-color: lightgrey;
+  }
+
+
+
+  h2 {
+    align-self: center;
+  }
