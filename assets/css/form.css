@@ -39,3 +39,7 @@ ul {
   h2 {
     align-self: center;
   }
+
+  p {
+    font-style: italic;
+  }
