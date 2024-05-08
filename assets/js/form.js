@@ -11,7 +11,7 @@ function displayMessage(type, message) {
 }
 
 
-// function that 
+// event listener to take collect blog post data and take user to blog page
 submitButton.addEventListener('click', function (event) {
     event.preventDefault();
 
@@ -34,6 +34,7 @@ submitButton.addEventListener('click', function (event) {
     }
     else {
 
+        
         window.location.href = './blog.html';
     }
 })

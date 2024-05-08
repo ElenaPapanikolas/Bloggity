@@ -15,12 +15,13 @@ figure {
 header {
     text-align: center;
     padding: 10px;
-    
+    border-bottom: 5px solid;
 }
 
 h1 {
     position: relative;
     display: inline;
+    font-size: 180%;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav button {
     height: 45px;
     display: inline;
     position: relative;
-    left: 500px;
+    left: 480px;
     background: none;
     border: none;
 }
@@ -40,13 +41,26 @@ nav button {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(97, 126, 165);
+    font-size: 20px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
+    border-top: 5px solid;
+    
 }
 
 img {
     border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    
 }
