@@ -25,16 +25,24 @@ function renderBlogPosts() {  // function that iterated through the array
         const postTitle = document.createElement('p');
         postBody.appendChild(postTitle);
 
-        const postAuthor = document.createElement('p');
-        postBody.appendChild(postAuthor);
 
         const postContent = document.createElement('p');
         postBody.appendChild(postContent);
+
+        const postAuthor = document.createElement('p');
+        postBody.appendChild(postAuthor);
 
         
         postTitle.textContent = post.title;
         postAuthor.textContent = `Posted by: ${post.username}`;
         postContent.textContent = post.content;
+
+        postBody.setAttribute('class', 'postBody'); //setting attributes for created elements, to be able to style in CSS
+        postTitle.setAttribute('class', 'postTitle');
+        postAuthor.setAttribute('class', 'postAuthor');
+        postContent.setAttribute('class', 'postContent');
+        
+
 
     }
 }
