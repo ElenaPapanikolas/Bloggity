@@ -22,7 +22,7 @@ submitButton.addEventListener('click', function (event) {
         content: contentInput.value,
     }
 
-    // conditional statement to check form data
+    // conditional statement to check form data and display message, prompting user to complete form
     if (blogPost.username === '') {
         displayMessage('error', 'Please enter your username.');
     }
@@ -34,8 +34,8 @@ submitButton.addEventListener('click', function (event) {
     }
     else {
 
-        
-        window.location.href = './blog.html';
+        storeBlogPost(blogPost); // storing the blog posts       
+        window.location.href = './blog.html'; // linking to blog.html page
     }
 })
 
