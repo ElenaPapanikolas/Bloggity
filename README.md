@@ -4,8 +4,8 @@
 <!-- GIVEN a personal blog
 WHEN I load the app,
 THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content. -->
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
+<!-- WHEN I submit the form,
+THEN blog post data is stored to localStorage. -->
 <!-- WHEN the form submits,
 THEN I am redirected to the posts page.
 WHEN I enter try to submit a form without a username, title, or content,
