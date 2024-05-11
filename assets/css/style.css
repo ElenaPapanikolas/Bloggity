@@ -1,3 +1,14 @@
+:root {
+    --light-background: rgb(97, 126, 165);
+    --dark-background: rgb(6, 1, 43);
+    --text-lightmode: rgb(14, 10, 10);
+    --text-darkmode: rgb(210, 210, 210);
+}
+
+
+
+
+
 main {
     width: 100%;
     display: flex;
@@ -40,15 +51,33 @@ nav button {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(97, 126, 165);
     font-size: 20px;
 }
+
+.light-mode {
+    background-color: var(--light-background);
+    color: var(--text-lightmode);
+}
+
+.dark-mode {
+    background-color: var(--dark-background);
+    color: var(--text-darkmode);
+}
+
 
 footer {
     text-align: left;
     padding: 10px;
     border-top: 5px solid;
     
+}
+
+footer p,
+footer h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 img {
@@ -65,8 +94,3 @@ a {
     
 }
 
-footer p {
-    margin: 20px;
-    text-align: center;
-    font-weight: bold;
-}
