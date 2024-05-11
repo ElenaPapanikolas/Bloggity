@@ -40,6 +40,6 @@ ul {
     align-self: center;
   }
 
-  p {
+  #display-message {
     font-style: italic;
   }

@@ -64,6 +64,14 @@ body {
     color: var(--text-darkmode);
 }
 
+.light-link {
+    color: var(--text-lightmode);
+}
+
+.dark-link {
+    color: var(--text-darkmode);
+}
+
 
 footer {
     text-align: left;
@@ -72,12 +80,12 @@ footer {
     
 }
 
-footer p,
-footer h3 {
+footer p {
     margin: 20px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+
 }
 
 img {
