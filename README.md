@@ -15,9 +15,11 @@ N/A
 
 The user is presented with a blog landing page. This page contains a form with labels and inputs for the user to enter their username, blog title, and blog content. If the user does not enter something for each input, they are presented with a message that prompts them to complete the form. When the user submits the form, their entered data is stored in local storage, and they are redirected to the blog posts page. The header of the blog posts page contains a light and dark mode option and a back button, that takes the user back to the landing page, and they are able to enter more blog posts. When the user clicks the light or dark mode option, the page content is styled to reflect the light or dark mode selection. The users preference is also stored in local storage, so even with they refresh or exit the page and come back, it is saved. After the user submits their blog posts, the posts are rendered to the posts page in top to bottom order of first written, to the latest written being at the bottom of the page. If you inspect the page with DevTools you will find a JSON array of blog post objects, including the post author's username, title, and content. In the footer you will find a link to my portfolio. 
 
-** Deployed application link
+### [Click here](https://elenapapanikolas.github.io/Bloggity/) for deployed application.
 
-** Screenshot of deployed application
+!["Screenshot of landing page"](./assets/images/screenshot1.png)
+
+!["Screenshot of blog posts"](./assets/images/screenshot2.png)
 
 
  ## Credits
