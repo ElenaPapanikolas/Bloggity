@@ -1,4 +1,6 @@
-// declaring variable for form inputs
+// JavaScript for the form on the landing page //
+
+// declaring variables for form inputs
 const usernameInput = document.querySelector('#username'); 
 const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
@@ -10,8 +12,7 @@ function displayMessage(type, message) {
     messageP.textContent = message;
 }
 
-
-// event listener to take collect blog post data and take user to blog page
+// event listener to collect blog post data and take user to blog page
 submitButton.addEventListener('click', function (event) {
     event.preventDefault();
 

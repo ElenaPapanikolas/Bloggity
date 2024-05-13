@@ -1,3 +1,6 @@
+/* Styling for both html pages */
+
+/* Color variables for light and dark mode */
 :root {
     --light-background: rgb(97, 126, 165);
     --dark-background: rgb(6, 1, 43);
@@ -5,22 +8,9 @@
     --text-darkmode: rgb(210, 210, 210);
 }
 
-
-
-
-
-main {
-    width: 100%;
-    display: flex;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-figure {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 header {
@@ -49,11 +39,52 @@ nav button {
     border: none;
 }
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+main {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    border-top: 5px solid;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+footer p {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Classes for light and dark mode */
 .light-mode {
     background-color: var(--light-background);
     color: var(--text-lightmode);
@@ -71,34 +102,3 @@ body {
 .dark-link {
     color: var(--text-darkmode);
 }
-
-
-footer {
-    text-align: left;
-    padding: 10px;
-    border-top: 5px solid;
-    
-}
-
-footer p {
-    margin: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-
-}
-
-img {
-    border-radius: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid;
-    border-radius: 30px;
-    padding: 10px;
-    font-weight: bold;
-    
-}
-

@@ -1,3 +1,5 @@
+/* Styling for blog.html */
+
 #back-button {
     border: 1px solid;
     background-color: lightgrey;
@@ -10,6 +12,7 @@ main {
     display: block;
 }
 
+/* Classes for user generated blog posts */
 .postBody {
     border: 2px solid;
     margin: 20px;

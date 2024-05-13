@@ -1,9 +1,6 @@
-const main = document.querySelector('main');
+// JavaScript for blog posts page //
 
-
-
-
-
+const main = document.querySelector('main'); // getting access to the main element
 
 // declaring variable for back button
 const backButton = document.querySelector('#back-button');
@@ -13,8 +10,7 @@ backButton.addEventListener('click', function() {
     window.location.href = './index.html';
 })
 
-
-function renderBlogPosts() {  // function that iterated through the array
+function renderBlogPosts() {  // function that iterates through the array of blog posts, to create HTML elements, and render them to the page
     getBlogPosts();
     for (let i = 0; i < totalPosts.length; i++) {
         const post = totalPosts[i];

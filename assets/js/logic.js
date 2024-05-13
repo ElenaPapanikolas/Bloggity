@@ -1,7 +1,8 @@
+// JavaScript for light and dark modes and local storage //
 
 const themebutton = document.querySelector('.theme-button'); // getting access to the button to be able to change themes
 const body = document.querySelector('body'); // getting access to the body
-const alien = document.querySelector('.alien'); // getting access to the alien button
+const alien = document.querySelector('.alien'); // getting access to the alien picture
 const link = document.querySelector('.light-link'); // getting access to portfolio link 
 
 
@@ -14,7 +15,6 @@ function storeBlogPost(blogPost) {  // creating a function to store blog posts i
 function getBlogPosts() {      // creating function to retrieve blog posts from local storage
     JSON.parse(localStorage.getItem('totalPosts')) || [];
 }    
-
 
 
 function setDarkMode() {
@@ -43,7 +43,7 @@ themebutton.addEventListener('click', function() {  // event listener that liste
     }
 });
 
-function saveMode() {
+function saveMode() {   // function to remember user preference for light and dark mode
     let storedMode = localStorage.getItem('storedMode');
     if (storedMode !== null) {
         mode = storedMode;
@@ -58,4 +58,4 @@ function saveMode() {
     }
  }
 
-saveMode();
+saveMode();  // calling the above function
